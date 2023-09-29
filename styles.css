@@ -4,8 +4,19 @@
 	padding:0px;
 	margin:0px;
 }
+body{
+	background:black;
+	display:flex;
+	justify-content:center;
+}
 .grid-container{
-	display:grid;
+	display:flex;
+	width:80vw;
+	height:90vh;
+	padding:0px;
+	margin:20px;
+	background:white;
+	justify-content:center;
 	grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
 	gap:10px;
 }
