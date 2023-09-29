@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+*{
+	border-boxing:border-box;
+	padding:0px;
+	margin:0px;
+}
+.grid-container{
+	display:grid;
+	grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+	gap:10px;
+}
+
+.grid-item{
+	background-color:lightgray;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:200px;
+	height:150px;
+	border-radius:5px;
+	font-size:40px;
+}
